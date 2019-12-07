@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+/home/spidey/Documents/coding-interview/.metadata/.plugins/org.eclipse.jdt.core
+2592986963.index
+3803053905.index
+401042979.index
+1245111667.index
+4206525861.index
+764445088.index
+2144700664.index
+2424527197.index
+793332527.index
+1357027479.index
+345112422.index

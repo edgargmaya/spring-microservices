@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.interview.mx.repository.EmployeeRepository"/>
+<fullyQualifiedTypeName name="com.interview.mx.model.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.edgar.demo.model.Employee"/>
+<fullyQualifiedTypeName name="com.edgar.demo.model.EmployeeEntity"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.core.dependency.repository.EmployeeRepository"/>
+<fullyQualifiedTypeName name="com.core.dependency.model.Employee"/>
+<fullyQualifiedTypeName name="com.core.dependency.model.EmployeeEntity"/>
+<fullyQualifiedTypeName name="com.edgar.demo.service.EmployeeService"/>
+</qualifiedTypeNameHistroy>

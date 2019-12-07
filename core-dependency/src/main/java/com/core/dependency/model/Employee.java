@@ -1,0 +1,91 @@
+package com.core.dependency.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
+
+@Valid
+public class Employee {
+	
+	private String idEmployee;
+	
+	@NotNull(message = "Attribute can not be null, please fill the field")
+	@NotBlank(message = "Attribute must not contain blank characters")
+	private String name;
+	@NotNull(message = "Attribute can not be null, please fill the field")
+	@NotBlank(message = "Attribute must not contain blank characters")
+	private String surName;
+	@NotNull(message = "Attribute can not be null, please fill the field")
+	@Positive(message = "Salary must be a positive ammount")
+	private float salary;
+	
+	public Employee(){}
+	
+	public Employee(String idEmployee, String name, String surName, float salary) {
+		this.name = name;
+		this.surName = surName;
+		this.idEmployee = idEmployee;
+		this.salary = salary;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSurName() {
+		return surName;
+	}
+
+	public void setSurName(String surName) {
+		this.surName = surName;
+	}
+
+	public String getIdEmployee() {
+		return idEmployee;
+	}
+
+	public void setIdEmployee(String idEmployee) {
+		this.idEmployee = idEmployee;
+	}
+
+	public float getSalary() {
+		return salary;
+	}
+
+	public void setSalary(float salary) {
+		this.salary = salary;
+	}
+	
+	public static EmployeeEntity DtoToEntity(final Employee emp) {
+		return new EmployeeEntity(null, emp.getName(), emp.getSurName(), emp.getSalary() );
+	}
+	
+	public static EmployeeEntity DtoToEntity(final String id, final Employee emp) {
+		return new EmployeeEntity(id, emp.getName(), emp.getSurName(), emp.getSalary() );
+	}
+	
+	public static Employee EntityToDto(final EmployeeEntity empEntity) {
+		if( empEntity == null ) 
+			return null;
+		return new Employee(empEntity.getIdEmployee(), empEntity.getName(), empEntity.getSurName(), empEntity.getSalary() );
+	}
+	
+	public static List<Employee> EntityToDto(final List<EmployeeEntity> empEntityList ) {
+		if( empEntityList == null ) 
+			return null;
+		List<Employee> newList = new ArrayList<>();
+		for( EmployeeEntity empEntity : empEntityList ) {
+			newList.add( new Employee(empEntity.getIdEmployee(), empEntity.getName(), empEntity.getSurName(), empEntity.getSalary() ) );
+		}
+		return newList;
+	}
+
+}
