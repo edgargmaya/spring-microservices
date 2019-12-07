@@ -838,3 +838,144 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/modify/src/ma
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 00:34:36.716
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EmlilgBp => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-07 01:00:57.328
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-07 01:00:57.339
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:09.265
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:09.266
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7fb28ed[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:09.266
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:10.973
+!MESSAGE Boot LS startup time from start to initialized: 1707ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:10.999
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zDdCjjvxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:10.999
+!MESSAGE subscribing to classpath changes: sts4.classpath.zDdCjjvx isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.000
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.000
+!MESSAGE subsribers = {sts4.classpath.zDdCjjvx=Send Classpath Notifications(1152)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.001
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.004
+!MESSAGE project simple-project ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.004
+!MESSAGE project core-dependency ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.004
+!MESSAGE Preparing classpath changed notification simple-project
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.004
+!MESSAGE project create ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.004
+!MESSAGE project delete ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.004
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.005
+!MESSAGE project modify ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.005
+!MESSAGE project recover ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.005
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.005
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zDdCjjvx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.005
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.005
+!MESSAGE buffering callback sts4.classpath.zDdCjjvx simple-project false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.005
+!MESSAGE Preparing classpath changed notification core-dependency
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.006
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.006
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.007
+!MESSAGE buffering callback sts4.classpath.zDdCjjvx core-dependency false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.007
+!MESSAGE Preparing classpath changed notification create
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.007
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.008
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.009
+!MESSAGE buffering callback sts4.classpath.zDdCjjvx create false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.009
+!MESSAGE Preparing classpath changed notification delete
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.009
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.010
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.010
+!MESSAGE buffering callback sts4.classpath.zDdCjjvx delete false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.011
+!MESSAGE Preparing classpath changed notification modify
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.011
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.012
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.012
+!MESSAGE buffering callback sts4.classpath.zDdCjjvx modify false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.012
+!MESSAGE Preparing classpath changed notification recover
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.013
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.014
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.015
+!MESSAGE buffering callback sts4.classpath.zDdCjjvx recover false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.015
+!MESSAGE executing callback sts4.classpath.zDdCjjvx 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-07 01:01:11.065
+!MESSAGE executing callback sts4.classpath.zDdCjjvx SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-07 01:01:20.025
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-07 01:01:20.027
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
